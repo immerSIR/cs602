@@ -1,0 +1,227 @@
+{
+  "timestamp": "2025-12-08T15:20:27.648743",
+  "listings": [
+    {
+      "title": "Watch Factory Lofts | 185 Crescent St, Waltham, MA",
+      "price": 2499.0,
+      "address": "185 Crescent St, Waltham, MA",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "sqft": 908.0,
+      "amenities": [
+        "Gym",
+        "Pool"
+      ],
+      "image_url": "https://photos.zillowstatic.com/fp/64d501bbc554020cca91543588b9144c-p_e.jpg",
+      "source": "Zillow",
+      "zip_code": "02453",
+      "price_original": "$2,499+",
+      "price_valid": true,
+      "latitude": 42.367553,
+      "longitude": -71.243015,
+      "distance_miles": 1.76,
+      "commute_time": "4 min",
+      "neighborhood": "Waltham Center"
+    },
+    {
+      "title": "Currents on the Charles | 36 River St, Waltham, MA",
+      "price": 2388.0,
+      "address": "36 River St, Waltham, MA",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "sqft": 895.0,
+      "amenities": [
+        "Parking",
+        "AC",
+        "Laundry"
+      ],
+      "image_url": "https://photos.zillowstatic.com/fp/a1e2c1b115ef0ed1fad6deaaf2c6cfec-p_e.jpg",
+      "source": "Zillow",
+      "zip_code": "02453",
+      "price_original": "$2,388+",
+      "price_valid": true,
+      "latitude": 42.3681816,
+      "longitude": -71.2170266,
+      "distance_miles": 1.36,
+      "commute_time": "3 min",
+      "neighborhood": "Waltham Center"
+    },
+    {
+      "title": "Cronin's Landing | 237 Moody St, Waltham, MA",
+      "price": 2560.0,
+      "address": "237 Moody St, Waltham, MA",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "sqft": 667.0,
+      "amenities": [
+        "Breakfast bar",
+        "Special Offer"
+      ],
+      "image_url": "https://photos.zillowstatic.com/fp/daa3db6eb3394953c9fe85e9b05d98f1-p_e.jpg",
+      "source": "Zillow",
+      "zip_code": "02453",
+      "price_original": "$2,560+",
+      "price_valid": true,
+      "latitude": 42.3722472,
+      "longitude": -71.2368625,
+      "distance_miles": 1.31,
+      "commute_time": "3 min",
+      "neighborhood": "Waltham Center"
+    },
+    {
+      "title": "Longview Place | 70 Hope Ave, Waltham, MA",
+      "price": 2559.0,
+      "address": "70 Hope Ave, Waltham, MA",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "sqft": 751.0,
+      "amenities": [
+        "Laundry",
+        "Parking"
+      ],
+      "image_url": "https://photos.zillowstatic.com/fp/d26d265c12670a8fc7d401add832364b-p_e.jpg",
+      "source": "Zillow",
+      "zip_code": "02453",
+      "price_original": "$2,559+",
+      "price_valid": true,
+      "latitude": 42.3682042,
+      "longitude": -71.2475867,
+      "distance_miles": 1.88,
+      "commute_time": "4 min",
+      "neighborhood": "Waltham Center"
+    },
+    {
+      "title": "Edison on the Charles by Windsor | 20 Cooper St, Waltham, MA",
+      "price": 2540.0,
+      "address": "20 Cooper St, Waltham, MA",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "sqft": 718.0,
+      "amenities": [
+        "Gym",
+        "Pool"
+      ],
+      "image_url": "https://photos.zillowstatic.com/fp/7f11f61dfd8a53416b6c277e0488bb05-p_e.jpg",
+      "source": "Zillow",
+      "zip_code": "02453",
+      "price_original": "$2,540+",
+      "price_valid": true,
+      "latitude": 42.3721089,
+      "longitude": -71.2325266,
+      "distance_miles": 1.2,
+      "commute_time": "2 min",
+      "neighborhood": "Waltham Center"
+    },
+    {
+      "title": "210 Charles St FLOOR 1, Waltham, MA 02453",
+      "price": 2250.0,
+      "address": "210 Charles St FLOOR 1, Waltham, MA 02453",
+      "bedrooms": 2,
+      "bathrooms": 1.0,
+      "sqft": 750.0,
+      "amenities": [
+        "Gym",
+        "Pool"
+      ],
+      "image_url": "https://photos.zillowstatic.com/fp/ab0331837f0bec5c531b5e2ebcb5cdcd-p_e.jpg",
+      "source": "Zillow",
+      "zip_code": "02453",
+      "price_original": "$2,250/mo",
+      "price_valid": true,
+      "latitude": 42.371504313490654,
+      "longitude": -71.23465631749804,
+      "distance_miles": 1.29,
+      "commute_time": "3 min",
+      "neighborhood": "Waltham Center"
+    },
+    {
+      "title": "577 South St APT 1, Waltham, MA 02453",
+      "price": 1825.0,
+      "address": "577 South St APT 1, Waltham, MA 02453",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "sqft": 450.0,
+      "amenities": [
+        "Laundry",
+        "Parking"
+      ],
+      "image_url": "https://photos.zillowstatic.com/fp/9ebea7a8074d612a54337c877975e73d-p_e.jpg",
+      "source": "Zillow",
+      "zip_code": "02453",
+      "price_original": "$1,825/mo",
+      "price_valid": true,
+      "latitude": 42.36961692809215,
+      "longitude": -71.24256795980133,
+      "distance_miles": 1.64,
+      "commute_time": "3 min",
+      "neighborhood": "Waltham Center"
+    },
+    {
+      "title": "179 Brown St #3, Waltham, MA 02453",
+      "price": 2400.0,
+      "address": "179 Brown St #3, Waltham, MA 02453",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "sqft": 760.0,
+      "amenities": [
+        "Laundry",
+        "Parking"
+      ],
+      "image_url": "https://photos.zillowstatic.com/fp/3641514682ba086c42ef2ab66f10c118-p_e.jpg",
+      "source": "Zillow",
+      "zip_code": "02453",
+      "price_original": "$2,400/mo",
+      "price_valid": true,
+      "latitude": 42.37396951443691,
+      "longitude": -71.23524161011919,
+      "distance_miles": 1.17,
+      "commute_time": "2 min",
+      "neighborhood": "Waltham Center"
+    },
+    {
+      "title": "246 Ash St, Waltham, MA 02453",
+      "price": 4500.0,
+      "address": "246 Ash St, Waltham, MA 02453",
+      "bedrooms": 4,
+      "bathrooms": 1.5,
+      "sqft": 3000.0,
+      "amenities": [
+        "Laundry",
+        "Parking"
+      ],
+      "image_url": "https://photos.zillowstatic.com/fp/f6add55078516b291fe81f8fda925bfa-p_e.jpg",
+      "source": "Zillow",
+      "zip_code": "02453",
+      "price_original": "$4,500/mo",
+      "price_valid": true,
+      "latitude": 42.364737,
+      "longitude": -71.2314263,
+      "distance_miles": 1.65,
+      "commute_time": "3 min",
+      "neighborhood": "Waltham Center"
+    },
+    {
+      "title": "(undisclosed Address), Waltham, MA 02453",
+      "price": 6750.0,
+      "address": "(undisclosed Address), Waltham, MA 02453",
+      "bedrooms": 5,
+      "bathrooms": 5.0,
+      "sqft": 1688.0,
+      "amenities": [
+        "Parking",
+        "AC",
+        "Laundry"
+      ],
+      "image_url": "https://photos.zillowstatic.com/fp/503b8f120870097e8220003423e894dd-p_e.jpg",
+      "source": "Zillow",
+      "zip_code": "02453",
+      "price_original": "$6,750/mo",
+      "price_valid": true,
+      "latitude": 42.369548884118956,
+      "longitude": -71.24240524036468,
+      "distance_miles": 1.64,
+      "commute_time": "3 min",
+      "neighborhood": "Waltham Center"
+    }
+  ]
+}

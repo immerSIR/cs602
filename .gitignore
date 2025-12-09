@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data cache files
+#rental_data_cache.json
+
+ar.md
+firecrwal_v2.md
+
+.env
+
+student_housing_heatmap.py
+
+README.md
