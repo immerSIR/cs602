@@ -1,8 +1,16 @@
 """
 Student Rental and Housing Heatmap for Waltham/Boston Area
-==========================================================
-CS602 Final Project - Interactive Data Explorer
+Name: Group 1
+    Members:
+     - Wilton Cartwright
+     - Ronny Nauta
+     - Mohamed Doumbia
 
+
+Data: https://www.apartments.com, https://www.zillow.com, https://www.junehomes.com, https://boston.craigslist.org
+URL: https://student-housing.streamlit.app/
+
+Description:
 This application helps students find affordable housing near campus
 by scraping rental listings and displaying them on an interactive map.
 
@@ -70,7 +78,12 @@ source_urls = [url for url in CONFIG["data_sources"].values()]
 print(f"All source URLs: {source_urls}")
 
 
+# ==============================================================================
 # FIRECRAWL SCRAPING CLASS
+# [AI2] AI was used to check and validate the Firecrawl v2 API implementation.
+# We provided the Firecrawl v2 documentation and iterated on the implementation
+# to ensure correct API usage, proper polling mechanism, and error handling.
+# ==============================================================================
 class FirecrawlScraper:
     """
     Scraper class using Firecrawl API for extracting rental listings.
@@ -92,6 +105,8 @@ class FirecrawlScraper:
 
 
     # [PY1]
+    # [AI2] - extract_from_url method: AI helped validate the v2 API endpoint structure,
+    # the async job submission payload format, and the polling mechanism for job completion.
     def extract_from_url(self, url, schema, prompt=None, max_wait=120):
         """
         Extract structured data from a URL using Firecrawl v2 extract API (with polling).
@@ -111,6 +126,7 @@ class FirecrawlScraper:
                 return {"success": False, "error": "No API key"}
 
             # Step 1: Submit the extraction job
+            # [AI2] - Payload structure validated against Firecrawl v2 documentation
             payload = {
                 "urls": [url],  # v2 extract takes array of URLs
                 "schema": schema
@@ -145,6 +161,7 @@ class FirecrawlScraper:
             st.info(f"⏳ Extraction job submitted (ID: {job_id[:8]}...). Waiting for completion...")
 
             # Step 2: Poll for job completion
+            # [AI2] - Polling mechanism validated for correct status checking
             start_time = time.time()
             poll_interval = 2  # seconds
 
@@ -192,6 +209,7 @@ class FirecrawlScraper:
             st.error(f"Unexpected error: {str(e)}")
             return {"success": False, "error": str(e)}
 
+    # [AI2] - scrape_url method: AI helped verify the v2 scrape endpoint format
     def scrape_url(self, url, formats=None):
         """
         Scrape a single URL using Firecrawl v2 API (basic scraping).
@@ -454,6 +472,10 @@ def geocode_address(address, zip_code=""):
         Tuple of (latitude, longitude, success) - THREE values returned
     """
     try:
+        """
+            Using geocode for this functionality is actually one of the cool features in our program and it demonstrates
+            the use of other python packages that we have not seen in class. We are very proud of that.
+        """
         geolocator = Nominatim(user_agent="student_housing_app", timeout=10)
 
         # Try multiple address formats for better accuracy
@@ -912,10 +934,17 @@ def main():
         initial_sidebar_state="expanded"
     )
 
+    # ===========================================================================
+    # [AI1] Custom CSS Styling
+    # AI was used to check and correct the HTML/CSS styling below.
+    # The design concept, color scheme, and layout decisions were created by the team.
+    # AI assistance was limited to verifying CSS syntax, cross-browser compatibility,
+    # and suggesting minor improvements for responsive design.
+    # ===========================================================================
     # [ST4] Custom CSS for styling - fonts, colors, backgrounds
     st.markdown("""
         <style>
-        /* v2 - Updated header size */
+        /* [AI1] v2 - Updated header size - AI reviewed for proper CSS syntax */
         .main-header {
             font-size: 3rem !important;
             font-weight: bold;
@@ -923,18 +952,21 @@ def main():
             text-align: center;
             padding: 1rem 0;
         }
+        /* [AI1] Sub-header styling - AI checked for consistency */
         .sub-header {
             font-size: 1.5rem !important;
             color: #7f8c8d;
             text-align: center;
             margin-bottom: 2rem;
         }
+        /* [AI1] Metric card styling - AI verified CSS properties */
         .metric-card {
             background-color: #f8f9fa;
             padding: 1rem;
             border-radius: 10px;
             text-align: center;
         }
+        /* [AI1] Streamlit metric override - AI checked for proper override syntax */
         .stMetric {
             background-color: #f0f2f6;
             padding: 10px;
